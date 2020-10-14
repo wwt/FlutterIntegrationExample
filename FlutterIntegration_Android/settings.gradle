@@ -1,10 +1,13 @@
 include ':app'
 setBinding(new Binding([gradle: this]))
+
+//Here, we have to specify the path to the include_flutter.groovy file in our Flutter module's directory
 evaluate(new File(
-  settingsDir,
-  '../FlutterIntegration_Flutter/.android/include_flutter.groovy'
+        settingsDir,
+        '../FlutterIntegration_Flutter/.android/include_flutter.groovy'
 ))
 rootProject.name = "FlutterIntegrationExample"
 
+//Here, we specify the path to our Flutter module's directory
 include ':FlutterIntegration_Flutter'
 project(':FlutterIntegration_Flutter').projectDir = new File('../FlutterIntegration_Flutter')
