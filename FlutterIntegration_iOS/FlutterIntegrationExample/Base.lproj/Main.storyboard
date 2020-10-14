@@ -36,7 +36,7 @@
                                     <action selector="checkOutButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wQA-AF-kfe"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XTV-bV-ccG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XTV-bV-ccG">
                                 <rect key="frame" x="50" y="479.5" width="314" height="38"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
