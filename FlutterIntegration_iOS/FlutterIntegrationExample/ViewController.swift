@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func checkOutGermanButtonPressed(_ sender: Any) {
+        let helloWorldFlutterVC = HelloWorldFlutterViewController(engine: FlutterEngineManager.shared.helloWorldGermanEngine)
+
+        present(helloWorldFlutterVC, animated: true, completion: nil)
     }
 
 }
