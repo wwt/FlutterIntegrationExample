@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FlutterIntegrationExample/Pods-FlutterIntegrationExample-frameworks.sh
+${PODS_ROOT}/../../FlutterIntegration_Flutter/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../FlutterIntegration_Flutter/.ios/Flutter/App.framework

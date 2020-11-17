@@ -10,4 +10,12 @@ import Flutter
 
 class FlutterEngineManager {
 
-}
+    static var shared: FlutterEngineManager = FlutterEngineManager()
+    
+    public var helloWorldEngine: FlutterEngine
+
+    init() {
+        helloWorldEngine = FlutterEngine(name: "hello_world")
+    }
+
+} 
